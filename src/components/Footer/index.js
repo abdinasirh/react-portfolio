@@ -16,7 +16,7 @@ function Footer() {
 					></img>
 				</a>
 			</div>
-            <p className="copyright uk-text-small">© 2022 Abdinasir Hassan</p>
+            <p className="copyright"><small>© 2022 Copyright: Abdinasir Hassan</small></p>
 			
 		</footer>
 	);

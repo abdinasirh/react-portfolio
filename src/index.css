@@ -17,17 +17,6 @@ body {
   font-size: 16px;
 }
 
-/* header, nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--tertiary);
-} */
-
-/* nav, li{
-    padding: 15px 5px;
-} */
 
 header {
   background: var(--tertiary);
@@ -69,16 +58,35 @@ a {
   margin-left: var(--spacing-two);
 } */
 
+.center {
+  margin-left: 25%;
+  margin-right: 25%;
+  /* height: 600px; */
+  padding: 20px;
+  margin-top: 5%;
+  text-align: center;
+}
 
 
-footer {
-  padding-top: 40px;
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  
+}
+
+.copyright {
+  background: var(--tertiary);
+
+}
+.my-photo {
+	clip-path: circle();
+  width: 250px;
 }
 
 .logo {
 	width: 50px;
 	height: 50px;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 	cursor: pointer;
 }
 
@@ -87,6 +95,6 @@ footer {
 }
 
 .copyright {
-  margin-top: 4px;
+  margin-top: 10px;
   color: #0e0d0d;
 }
