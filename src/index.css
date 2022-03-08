@@ -98,3 +98,7 @@ a {
   margin-top: 10px;
   color: #0e0d0d;
 }
+
+.card {
+  max-width: 18rem;
+}

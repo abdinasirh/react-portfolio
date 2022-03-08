@@ -5,7 +5,7 @@ const About = () => {
       <p className="">Full Stack Developer</p>
       <hr />
       <img
-						src={require("../../assets/myPhoto.jpeg")}
+						src={require("../../assets/images/myPhoto.jpeg")}
 						alt="myphoto"
 						className="my-photo"
 					></img>

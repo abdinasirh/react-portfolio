@@ -1,13 +1,16 @@
-import React from "react";
-import Project from "./Project";
+import React, { useState } from "react";
+import Project from "../Project";
+import passGen from "../../assets/images/passGen.jpeg";
 
-const projects = [
+function Portfolio() {
+const [projects] = useState([
   {
-    title: "",
-    image: "",
-    technologies: "",
-    repo: "",
-    app: "",
+    title: "Password Generator",
+    description: "allows users to generate random passwords",
+    image: passGen,
+    technologies: "HTML, CSS, JavaScript",
+    repo: "https://github.com/abdinasirh/password-generator",
+    app: "https://abdinasirh.github.io/password-generator/",
   },
   {
     title: "",
@@ -45,15 +48,16 @@ const projects = [
     app: "",
   }
   
-];
+]);
 
-function Portfolio() {
+
   return (
     <div>
-      <p>My Work</p>
-      <hr />
-
-      <Project projects={projects} />
+      
+      {projects.map((project)=> (
+        <Project project={project} />
+      ))}
+      
     </div>
   );
 }
