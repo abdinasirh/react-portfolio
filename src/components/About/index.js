@@ -2,7 +2,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="center">
-      <p className="">Full Stack Developer</p>
+      <h3 className="">Full-Stack Developer</h3>
       <hr />
       <img
 						src={require("../../assets/images/myPhoto.jpeg")}

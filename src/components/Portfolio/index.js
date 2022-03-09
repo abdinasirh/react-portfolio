@@ -13,11 +13,12 @@ const [projects] = useState([
     app: "https://abdinasirh.github.io/password-generator/",
   },
   {
-    title: "",
-    image: "",
-    technologies: "",
-    repo: "",
-    app: "",
+    title: "Password Generator",
+    description: "allows users to generate random passwords",
+    image: passGen,
+    technologies: "HTML, CSS, JavaScript",
+    repo: "https://github.com/abdinasirh/password-generator",
+    app: "https://abdinasirh.github.io/password-generator/",
   },
   {
     title: "",
@@ -53,7 +54,8 @@ const [projects] = useState([
 
   return (
     <div>
-      
+      <h3 className="work">My Work</h3>
+      <hr />
       {projects.map((project)=> (
         <Project project={project} />
       ))}

@@ -15,6 +15,7 @@ body {
   font-family: sans-serif;
   background-color: var(--primary);
   font-size: 16px;
+  /* text-align: center; */
 }
 
 
@@ -58,10 +59,9 @@ a {
   margin-left: var(--spacing-two);
 } */
 
-.center {
+.center, .work{
   margin-left: 25%;
   margin-right: 25%;
-  /* height: 600px; */
   padding: 20px;
   margin-top: 5%;
   text-align: center;
@@ -100,5 +100,21 @@ a {
 }
 
 .card {
-  max-width: 18rem;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
 }
+.card-footer {
+  background: var(--tertiary);
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+

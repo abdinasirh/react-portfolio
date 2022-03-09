@@ -3,18 +3,37 @@ import React from "react";
 function Project({ project }) {
   const { title, description, image, technologies, repo, app } = project;
   return (
-    <div className="center">
-        <p>My Work</p>
-      <hr />
-      <div className="card">
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <img src={image} alt={title} />
-        <p>Technologies used: {technologies}</p>
-        <a href={repo}>Repo</a>
-        <a href={app}>App</a>
-
-        <hr />
+    <div className="container">
+      <div className="row">
+        <div className="column">
+          <div className="card">
+            <div className="card-body">
+              <h4 className="card-title">{title}</h4>
+              <p className="card-text">{description}</p>
+              <img className="img-thumbnail" src={image} alt={title} />
+              <p>Technologies used: {technologies}</p>
+              <footer className="card-footer">
+                <a
+                  href={repo}
+                  className="card-footer-item"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  See the Repo!
+                </a>
+                <br />
+                <a
+                  href={app}
+                  className="card-footer-item"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live App
+                </a>
+              </footer>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
