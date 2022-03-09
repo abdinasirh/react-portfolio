@@ -110,11 +110,26 @@ a {
   background: var(--tertiary);
 }
 
-.row {
-  display: flex;
+.card-title {
+  background: var(--tertiary);
+  padding:5px;
+  color: var(--light);
 }
 
-.column {
-  flex: 50%;
+.download {
+  background: green;
+  padding: 10px;
 }
+
+.fas {
+  padding: 10px;
+}
+
+/* .row {
+  display: flex;
+} */
+
+/* .column {
+  display: flex;
+} */
 
