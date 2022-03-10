@@ -1,4 +1,6 @@
 
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -124,6 +126,10 @@ a {
 .fas {
   padding: 10px;
 }
+/* 
+form {
+  width: 20%;
+} */
 
 /* .row {
   display: flex;
@@ -133,3 +139,20 @@ a {
   display: flex;
 } */
 
+/* input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+} */
+
+
+
+/* textarea {
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+} */

@@ -3,7 +3,7 @@ import React from "react";
 function Project({ project }) {
   const { title, description, image, technologies, repo, app } = project;
   return (
-    <div className="container">
+    <div className="container text-center">
       <div className="row">
         <div className="column">
           <div className="card">
