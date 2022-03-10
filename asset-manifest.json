@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f3a19e99.css",
-    "main.js": "/react-portfolio/static/js/main.776287b4.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/recipe.png": "/react-portfolio/static/media/recipe.8f252c08f044afd565fe.png",
-    "static/media/myPhoto.jpeg": "/react-portfolio/static/media/myPhoto.7963119aaa43dd5dd888.jpeg",
-    "static/media/weather-dash.png": "/react-portfolio/static/media/weather-dash.1496c56f416a4db5f681.png",
-    "static/media/work-day-sch.png": "/react-portfolio/static/media/work-day-sch.871afc4cb25ddbccb656.png",
-    "static/media/passGen.jpeg": "/react-portfolio/static/media/passGen.0d26635d10e46cf0d602.jpeg",
-    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.aef7f5bb4a273b134791.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.f3a19e99.css.map": "/react-portfolio/static/css/main.f3a19e99.css.map",
-    "main.776287b4.js.map": "/react-portfolio/static/js/main.776287b4.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/photo-port/static/css/main.f3a19e99.css",
+    "main.js": "/photo-port/static/js/main.93e69145.js",
+    "static/js/787.a2cb61a6.chunk.js": "/photo-port/static/js/787.a2cb61a6.chunk.js",
+    "static/media/recipe.png": "/photo-port/static/media/recipe.8f252c08f044afd565fe.png",
+    "static/media/myPhoto.jpeg": "/photo-port/static/media/myPhoto.7963119aaa43dd5dd888.jpeg",
+    "static/media/weather-dash.png": "/photo-port/static/media/weather-dash.1496c56f416a4db5f681.png",
+    "static/media/work-day-sch.png": "/photo-port/static/media/work-day-sch.871afc4cb25ddbccb656.png",
+    "static/media/passGen.jpeg": "/photo-port/static/media/passGen.0d26635d10e46cf0d602.jpeg",
+    "static/media/tech-blog.png": "/photo-port/static/media/tech-blog.aef7f5bb4a273b134791.png",
+    "index.html": "/photo-port/index.html",
+    "main.f3a19e99.css.map": "/photo-port/static/css/main.f3a19e99.css.map",
+    "main.93e69145.js.map": "/photo-port/static/js/main.93e69145.js.map",
+    "787.a2cb61a6.chunk.js.map": "/photo-port/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3a19e99.css",
-    "static/js/main.776287b4.js"
+    "static/js/main.93e69145.js"
   ]
 }
