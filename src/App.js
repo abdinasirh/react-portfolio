@@ -13,12 +13,14 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/About" exact component={About} />
+        <Route path="/" exact component={About} />
         <Route path="/Portfolio" exact component={Portfolio} />
         <Route path="/Resume" exact component={Resume} />
         <Route path="/Contact" exact component={Contact} />
-
       </Switch>
+      <main>
+        <About></About>
+      </main>
       <div>
         <Footer></Footer>
       </div>
