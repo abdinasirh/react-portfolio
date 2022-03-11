@@ -18,9 +18,6 @@ function App() {
         <Route path="/Resume" exact component={Resume} />
         <Route path="/Contact" exact component={Contact} />
       </Switch>
-      <main>
-        <About></About>
-      </main>
       <div>
         <Footer></Footer>
       </div>
