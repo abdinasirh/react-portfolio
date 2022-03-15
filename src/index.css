@@ -157,3 +157,12 @@ form {
   padding: 5px;
 } */
 
+.work-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1400px;
+  justify-content: center;
+}
+

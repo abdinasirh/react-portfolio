@@ -3,9 +3,7 @@ import React from "react";
 function Project({ project }) {
   const { title, description, image, technologies, repo, app } = project;
   return (
-    <div className="container text-center">
-      <div className="row">
-        <div className="column">
+    // <div className="container text-center">
           <div className="card">
             <div className="card-body">
               <h4 className="card-title">{title}</h4>
@@ -33,9 +31,7 @@ function Project({ project }) {
               </footer>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+    // </div>
   );
 }
 
