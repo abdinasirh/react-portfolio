@@ -5,6 +5,7 @@ import techBlog from "../../assets/images/tech-blog.png";
 import weatherDash from "../../assets/images/weather-dash.png";
 import recipe from "../../assets/images/recipe.png";
 import workDaySch from "../../assets/images/work-day-sch.png";
+import watchList from "../../assets/images/watch-list2.jpeg";
 
 function Portfolio() {
 const [projects] = useState([
@@ -47,6 +48,14 @@ const [projects] = useState([
     technologies: "HTML, CSS, JavaScript",
     repo: "https://github.com/abdinasirh/work-day-scheduler",
     app: "https://abdinasirh.github.io/work-day-scheduler/",
+  },
+  {
+    title: "Watch-List",
+    description: "allows users to create a profile, search for movies, save and delete",
+    image: watchList,
+    technologies: "React, Javascript , Node, MongoDB/Mongoose, GraphQL",
+    repo: "https://github.com/abdinasirh/watch-list",
+    app: "https://watch-app-list.herokuapp.com/",
   },
  
   
