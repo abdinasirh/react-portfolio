@@ -15,6 +15,17 @@ function Footer() {
 						className="logo"
 					></img>
 				</a>
+				<a
+					href="https://www.linkedin.com/in/abdinasirh/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src={require("../../assets/logos/linkedin-logo.png")}
+						alt="Linkedin"
+						className="logo"
+					></img>
+				</a>
 				<p className="copyright"><small>© 2022 Copyright: Abdinasir Hassan</small></p>
 			</div>
            

@@ -1,30 +1,28 @@
-
-
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-
 :root {
-	--primary: #9197AE;
-	--secondary: #9CAEA9;
-	--tertiary: #66666E;
+  --primary: #9197ae;
+  --secondary: #9caea9;
+  --tertiary: #66666e;
   --light: #fafafa;
 }
-body {
+
+body,
+html {
+  height: 100%;
   font-family: sans-serif;
   background-color: var(--primary);
   font-size: 16px;
-  /* text-align: center; */
 }
-
 
 header {
   background: var(--tertiary);
   color: var(--light);
+  border-bottom: 1px solid #fafafa;
 }
 
 h2 {
@@ -35,22 +33,20 @@ li {
   list-style: none;
   font-size: 1.5rem;
   color: var(--light);
-  
 }
 nav li {
   cursor: pointer;
 }
 
-nav a:hover {
+a:hover {
   text-decoration: none;
+  color: #3486eb;
 }
 
 a {
   color: var(--light);
   text-decoration: none;
-  
 }
-
 
 .flex-row {
   display: flex;
@@ -62,7 +58,8 @@ a {
   margin-left: var(--spacing-two);
 } */
 
-.center, .work{
+.center,
+.work {
   margin-left: 25%;
   margin-right: 25%;
   padding: 20px;
@@ -70,40 +67,39 @@ a {
   text-align: center;
 }
 
-
 .footer {
   margin-top: 40px;
   text-align: center;
-  position: absolute;
-width: 100%;
-  
+  /* position: absolute; */
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .copyright {
   background: var(--tertiary);
   padding: 10px;
-  
+  margin-bottom: 0px;
 }
 
-Footer .copyright{
+Footer .copyright {
   color: var(--light);
-
 }
 
 .my-photo {
-	clip-path: circle();
+  clip-path: circle();
   width: 250px;
 }
 
 .logo {
-	width: 50px;
-	height: 50px;
-	/* margin-bottom: 50px; */
-	cursor: pointer;
+  width: 50px;
+  height: 50px;
+  /* margin-bottom: 50px; */
+  cursor: pointer;
 }
 
 .logo:hover {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 .copyright {
@@ -116,7 +112,7 @@ Footer .copyright{
   text-align: center;
   margin-bottom: 20px;
   margin-left: 20px;
-  box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
+  box-shadow: 0 0 5px 0 rgba(22, 22, 26, 0.25);
 }
 .card-footer {
   background: var(--tertiary);
@@ -124,7 +120,7 @@ Footer .copyright{
 
 .card-title {
   background: var(--tertiary);
-  padding:5px;
+  padding: 5px;
   color: var(--light);
 }
 
@@ -158,8 +154,6 @@ form {
   transition: box-shadow 0.2s;
 } */
 
-
-
 /* textarea {
   width: 600px;
   height: 120px;
@@ -178,5 +172,5 @@ form {
 
 form {
   width: 100%;
+  margin-bottom: 50px;
 }
-
