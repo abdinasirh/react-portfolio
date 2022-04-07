@@ -45,7 +45,7 @@ function ContactForm() {
   return (
     <div className="center">
       <div>
-        <h3>Contact Me</h3>
+        <h3>Let us get in touch</h3>
       </div>
       <Form>
       <Form.Group className="mb-4" controlId="formBasicEmail" onSubmit={handleSubmit}>
@@ -66,6 +66,8 @@ function ContactForm() {
       </Button>
     </Form>
     </div>
+
+    
    
   );
 }

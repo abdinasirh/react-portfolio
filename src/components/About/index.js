@@ -10,17 +10,11 @@ const About = () => {
 						className="my-photo"
 					></img>
       <p>
-        did it changed?
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-        ultricies nec, pellentesque eu, pretium quis, sem.
+      Full Stack Web Developer with a background in DevOps environment. Worked with MSSQL databases in a retail company, capable of analyzing and interpreting information. Strong interpersonal communication skills with a proven ability to manage multiple projects while also meeting challenging deadlines. Ability to adapt/learn new systems.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-        ultricies nec, pellentesque eu, pretium quis, sem.
+      I seek to establish a full time career as a full-stack developer.I work well in team settings. I have used a wide range of Front-End and Back-End skills such as HTML5, CSS, Bootstrap, JavaScript, jQuery, React, Node.js, Express.js, MySQL,  MS SQL, Sequelize ORM, MongoDB, Mongoose ODM. 
+
       </p>
     </div>
   );

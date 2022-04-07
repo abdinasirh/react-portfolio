@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className="flex-row px-1">
       <h2>
-        <strong className="white-text">Abdinasir Hassan</strong>
+        <strong className="white-text"> <Link to="/">Abdinasir Hassan</Link></strong>
       </h2>
       <nav>
         <ul className="flex-row">
