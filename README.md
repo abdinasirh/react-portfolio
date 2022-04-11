@@ -14,7 +14,7 @@ This is my portfolio created with React.js. It contains an about me, projects, r
 
 [Live App](https://abdinasirh.github.io/react-portfolio/)
 
-![image](https://user-images.githubusercontent.com/68516914/157892023-3087dacc-8523-43dd-896f-fbf8fc68f263.png)
+![image](https://user-images.githubusercontent.com/68516914/162831821-9e22a501-7547-4316-85fe-b77fb60fd40f.png)
 
 
 ## Installation
