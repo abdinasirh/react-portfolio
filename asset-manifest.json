@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.68f316b1.css",
-    "main.js": "/react-portfolio/static/js/main.6ddf3af2.js",
+    "main.css": "/react-portfolio/static/css/main.57e34904.css",
+    "main.js": "/react-portfolio/static/js/main.19ee9af5.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/recipe.png": "/react-portfolio/static/media/recipe.8f252c08f044afd565fe.png",
     "static/media/myPhoto.jpeg": "/react-portfolio/static/media/myPhoto.7963119aaa43dd5dd888.jpeg",
+    "static/media/linkedin-logo.png": "/react-portfolio/static/media/linkedin-logo.d387e0857496348682ce.png",
     "static/media/weather-dash.png": "/react-portfolio/static/media/weather-dash.1496c56f416a4db5f681.png",
     "static/media/work-day-sch.png": "/react-portfolio/static/media/work-day-sch.871afc4cb25ddbccb656.png",
     "static/media/passGen.jpeg": "/react-portfolio/static/media/passGen.0d26635d10e46cf0d602.jpeg",
     "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.aef7f5bb4a273b134791.png",
     "static/media/watch-list2.jpeg": "/react-portfolio/static/media/watch-list2.2bcfba4885aa0219acfb.jpeg",
     "index.html": "/react-portfolio/index.html",
-    "main.68f316b1.css.map": "/react-portfolio/static/css/main.68f316b1.css.map",
-    "main.6ddf3af2.js.map": "/react-portfolio/static/js/main.6ddf3af2.js.map",
+    "main.57e34904.css.map": "/react-portfolio/static/css/main.57e34904.css.map",
+    "main.19ee9af5.js.map": "/react-portfolio/static/js/main.19ee9af5.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68f316b1.css",
-    "static/js/main.6ddf3af2.js"
+    "static/css/main.57e34904.css",
+    "static/js/main.19ee9af5.js"
   ]
 }
