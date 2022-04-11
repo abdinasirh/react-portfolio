@@ -59,7 +59,7 @@ a {
 } */
 
 .center,
-.work {
+.work, .contact {
   margin-left: 25%;
   margin-right: 25%;
   padding: 20px;
@@ -74,6 +74,7 @@ a {
   left: 0;
   bottom: 0;
   right: 0;
+  
 }
 
 .copyright {
@@ -170,7 +171,29 @@ form {
   justify-content: center;
 }
 
-form {
-  width: 100%;
-  margin-bottom: 50px;
+
+
+.contact-info {
+  /* width: 40%; */
+  margin-left: 60px;
+  background: var(--tertiary);
+  padding: 10px;
 }
+
+.contact-form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1200px;
+  justify-content: center;
+  margin-bottom: 70px;
+  /* width: 100%; */
+  
+
+}
+
+form {
+  width: 40%
+}
+

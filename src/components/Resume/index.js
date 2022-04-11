@@ -23,10 +23,10 @@ function Resume() {
         <h4 className="skill">Skills</h4>
         <hr />
         <ul>
-            <li>HTML5, CSS, JavaScript</li>
-            <li> Bootstrap, JQuery, Node, Express</li>
-            <li>MySQL, SQL, NoSQL, GitHub, MongoDB</li>
-            <li>React, Heroku,</li>
+            <li><strong>Front-End:</strong> HTML5, CSS, Bootstrap, JavaScript, jQuery, React</li>
+            <li> <strong>Back-End:</strong> Node.js, Express.js, MySQL,  MS SQL, Sequelize ORM, MongoDB, Mongoose ODM</li>
+            <li><strong>Concepts:</strong>APIs, REST, MVC, TDD, JSON, GraphQL</li>
+            <li><strong>Tools:</strong> AWS, Git, Github, GitLab, Jira, Confluence, Heroku, VS Code</li>
         </ul>
       </div>
     </div>

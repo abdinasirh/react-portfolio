@@ -64,7 +64,7 @@ const [projects] = useState([
 
   return (
     <div>
-      <h3 className="work">My Work</h3>
+      <h3 className="work">Projects</h3>
       <hr />
       <div className="work-container">
       {projects.map((project)=> (
