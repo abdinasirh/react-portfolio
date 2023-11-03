@@ -101,7 +101,7 @@ function ContactForm() {
             Submit
           </Button>
         </Form>
-        <div className="contact-info ">
+        <div className="contact-info .shadow-5 rounded mb-0">
           <li><strong>Email:</strong> abdinasirduud20@gmail.com</li>
           <li><strong>Phone:</strong> 320-223-3952</li>
           <li ><strong>Linkedin:</strong> <a 

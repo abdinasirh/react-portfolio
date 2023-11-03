@@ -26,7 +26,7 @@ function Footer() {
 						className="logo"
 					></img>
 				</a>
-				<p className="copyright"><small>© 2022 Copyright: Abdinasir Hassan</small></p>
+				<p className="copyright"><small>© 2023 Copyright: Abdinasir Hassan</small></p>
 			</div>
            
 			
